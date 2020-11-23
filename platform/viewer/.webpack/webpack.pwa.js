@@ -109,6 +109,7 @@ module.exports = (env, argv) => {
       public: 'http://localhost:' + 3000,
       historyApiFallback: {
         disableDotRule: true,
+        disabelHostCheck : true,
       },
     },
   });
