@@ -105,11 +105,12 @@ module.exports = (env, argv) => {
       hot: true,
       open: true,
       port: 3000,
+      disableHostCheck :true,
       host: '0.0.0.0',
       public: 'http://localhost:' + 3000,
       historyApiFallback: {
         disableDotRule: true,
-        disabelHostCheck : true,
+       
       },
     },
   });
