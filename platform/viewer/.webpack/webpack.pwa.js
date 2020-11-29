@@ -107,7 +107,7 @@ module.exports = (env, argv) => {
       port: 8000,
       disableHostCheck :true,
       host: '0.0.0.0',
-      public: 'http://0.0.0.0' + 8000,
+      public: 'http://0.0.0.0:' + 8000,
       historyApiFallback: {
         disableDotRule: true,
        
