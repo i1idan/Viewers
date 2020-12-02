@@ -108,8 +108,12 @@ module.exports = (env, argv) => {
       disableHostCheck :true,
       host: '0.0.0.0',
       public: 'http://0.0.0.0:' + 8000,
+      secure: false,
+      changeOrigin: true
+
       historyApiFallback: {
         disableDotRule: true,
+       
        
       },
     },
