@@ -104,7 +104,7 @@ module.exports = (env, argv) => {
       // https: true,
       hot: true,
       open: true,
-      port: 8000,
+      port: 3000,
       disableHostCheck :true,
       host: '0.0.0.0',
       public: 'http://0.0.0.0:' + 3000,
